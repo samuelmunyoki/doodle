@@ -1,31 +1,126 @@
-.App {
-  text-align: center;
+li{
+    padding-top: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.stake{
+    font-family: FontAwesome;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background: #e0e4e7;
+    box-shadow: inset 5px 5px 13px #c1c4c7,
+                inset -5px -5px 13px #ffffff;
+}
+.counter{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #f0f4f7, #cacdd0);
+    box-shadow:  5px 5px 10px #afb2b4,
+                 -5px -5px 10px #ffffff;
+
+}
+.txt{
+    color: rgba(236, 126, 218, 0.85);
+    text-shadow: 1px 1px 2px #e0e4e7, 0 0 0 black, 1px 4px 6px #def;
+}
+.txt_green{
+    color: rgba(0, 111, 82, 0.85);
+    text-shadow: 1px 1px 2px #e0e4e7, 0 0 0 black, 1px 4px 6px #def;
+}
+.history{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background: #e0e4e7;
+    box-shadow: inset 5px 5px 3px #ced2d5,
+                inset -5px -5px 3px #f2f6f9;
+}
+.txt1{
+    border-radius: 3px;
+    background: #e0e4e7;
+    box-shadow: inset 5px 5px 10px #afb2b4,
+                inset -5px -5px 10px #ffffff;
+}
+.btn{
+    border:none;
+    outline:none;
+    border-radius: 3px;
+    background: linear-gradient(145deg, #cacdd0, #f0f4f7);
+    box-shadow:  5px 5px 8px #9fa2a4,
+                 -5px -5px 8px #ffffff;
+}
+.btn:active,.btn1:active {
+    border-radius: 5px;
+    background: #e0e4e7;
+    box-shadow: inset 5px 5px 10px #cccfd2,
+                inset -5px -5px 10px #f4f9fc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn1{
+    border-radius: 5px;
+    background: linear-gradient(145deg, #f0f4f7, #cacdd0);
+    box-shadow:  5px 5px 12px #9fa2a4,
+                 -5px -5px 12px #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.effect1{
+    border-radius: 15px;
+    background: #e0e4e7;
+    box-shadow:  8px 8px 16px #c3c6c9,
+                 -8px -8px 16px #fdffff;
+}
+.effect2{
+    border-radius: 3px;
+    background: linear-gradient(145deg, #cacdd0, #f0f4f7);
+    box-shadow:  5px 5px 6px #ced2d5,
+                 -5px -5px 6px #f2f6f9;
+}
+.effect3{
+    border-radius: 50%;
+    background: #37475A;
+    box-shadow: inset 5px 5px 10px #273240,
+            inset -5px -5px 10px #475c74;
+}
+.effect4{
+    border-radius: 50%;
+    background: linear-gradient(145deg, #324051, #3b4c60);
+    box-shadow:  5px 5px 10px #273240,
+             -5px -5px 10px #475c74;
 }
 
-.heart {
-  color: #ff0000;
+.effect5{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(145deg, #324051, #3b4c60);
+    box-shadow:  7px 7px 14px #2c3948,
+                 -7px -7px 14px #42556c;
 }
 
-.small {
-  font-size: 0.75rem;
+.effect5:focus{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background: #37475A;
+    box-shadow: inset 7px 7px 14px #2c3948,
+                inset -7px -7px 14px #42556c;
+}
+.effect6{
+    border-radius: 2px;
+    background-color: #272d67;
+}
+.effect6::after{
+    border-radius: 2px;
+    background: linear-gradient(145deg, #3b4c60, #324051);
+    box-shadow:  7px 7px 14px #161c24,
+                 -7px -7px 14px #587290;
+}
+
+.text_effect{
+    color: #273240;
+    text-shadow: 5px 5px 10px #273240,
+    -5px -5px 10px #475c74,;
+
 }
